@@ -1,0 +1,134 @@
+/*
+  Authors : Mudey Formation
+  Website : https://mudey.fr/
+  App Name : E-commerce with React.Js
+  Created At : 06/08/2024 12:57:10
+*/
+
+.Apropos {
+display: flex;
+flex-direction: column;
+justify-items: center;
+align-items: center;
+
+
+}
+.contentApropos {
+  background-color: white;
+  height: 50%;
+  width: 90%;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  /* border: 1px solid gold; */
+  opacity: 1;
+  padding: 50px;
+  box-shadow: 5px 0px 20px rgb(192, 191, 191);
+
+  
+}
+
+.p-contentelt{
+  display: flex;
+  gap: 10px;
+  justify-items: baseline;
+ 
+}
+
+.textP {
+  font-size: 22px;
+  color: rgb(58, 119, 121);
+}
+
+.title-apropos {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.title-apropos::after {
+  content: '';
+  background-color: crimson;
+  margin-top: 10px;
+  height: 4px;
+  width: 130px;
+  margin-bottom: 20px;
+
+}
+
+.profilImage {
+  width: 200px;
+  height: 300px;
+  background-image: url('/public/assets/images/projects/profile-removebg-preview.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-top: -27px;
+
+
+}
+.contentPresentation p a{
+text-decoration: none;
+/* border: 5px solid rgb(255, 255, 255); */
+/* padding: 20px 110px; */
+display: block;
+align-content: center;
+height: 60px;
+background-color: rgb(243, 21, 65);
+color: white;
+font-size: 18px;
+font-weight: bolder;
+border-radius: 5px;
+/* margin-left: -5px; */
+}
+
+
+.download{
+margin-top: 30px;
+
+
+}
+
+.contentPresentation p a:hover{
+  border: 5px solid rgb(248, 132, 132);
+  /* border-radius: 5px;  */
+background-color: crimson;
+
+
+  }
+
+.competances{
+margin-left: -13px;
+
+  }
+.title-competances{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+
+}
+ 
+
+.title-competances::after {
+  content: '';
+  background-color: crimson;
+  margin-top: 10px;
+  height: 4px;
+  width: 130px;
+  margin-bottom: 20px;
+
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+  
+/* .contentPresentation{
+ margin-left: 100px;
+} */
+
+
+
+
+
+}

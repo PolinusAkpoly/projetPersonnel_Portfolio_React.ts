@@ -1,0 +1,59 @@
+/*
+  Authors : Mudey Formation
+  Website : https://mudey.fr/
+  App Name : E-commerce with React.Js
+  Created At : 02/08/2024 17:08:41
+*/
+
+
+.Header {
+  position: sticky;
+  top: 0;
+  background-color: crimson;
+  
+z-index: 100;
+}
+.headerNouveau {
+  position: sticky;
+  top: 0;
+  background-color: black;
+  
+/* opacity: 0.6;  */
+z-index: 100;
+}
+.Header a, .headerNouveau a{
+  color: white!important;
+  font-size: 21px;
+}
+.navbar-toggler{
+background-color: white!important;
+}
+em{
+  color: blue;
+}
+.navbar-nav a {
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none; /* Ajouté pour supprimer les soulignements par défaut des liens */
+}
+
+.navbar-nav a::after {
+  content: '';
+  background-color: white;
+  margin-top: 2px;
+  height: 4px;
+  width: 40px;
+  opacity: 0; 
+   
+}
+
+.navbar-nav a:hover::after {
+  opacity: 1; /* Montre l'élément ::after au survol */
+  transition: opacity 1s;
+}
+
+
+
+
